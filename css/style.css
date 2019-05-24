@@ -1,1 +1,167 @@
-ECHO is on.
+:root{
+	--primary-cyan: hsl(179, 62%, 43%);
+    --primary-bright-yellow: hsl(71, 73%, 54%);
+    --neutral-light-gray: hsl(204, 43%, 93%);
+    --netural-grayish-blue: hsl(218, 22%, 67%);
+
+    --font: 'Karla', sans-serif;
+}
+
+html{
+	background-color: #F3F3F3;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    font-family: var(--font);
+}
+
+body{
+	margin: 30px 20px;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.12);
+	margin-top: 70px;
+	margin-right: 350px;
+	margin-left: 250px;
+}
+
+.avatar{
+   max-width: 100%;
+   display: block;
+   height: auto;
+   display: flex;
+}
+
+.main-container{
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+	height: 250px;
+	justify-content: flex-end;
+	margin-top: 15px;
+}
+
+.title{
+	flex:1;
+	color: var(--primary-cyan);
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 38px;
+}
+
+.subtitle{
+	color:var(--primary-bright-yellow);
+	flex:1;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 24px;
+
+}
+
+.text{
+	color: var(--netural-grayish-blue);
+	line-height: 1.5em;
+	flex: 1;
+	margin-left: 30px;
+	margin-bottom: 75px;
+	font-size: 20px;
+}
+
+.side-container{
+	display: flex;
+	height: 280px;
+	
+}
+
+.box-1{
+	flex:1;
+	background-color: var(--primary-cyan);
+	padding-top:15px;
+	border-bottom-left-radius: 10px;
+}
+
+.box-2{
+	flex:1;
+	background-color: #77CDCC;
+	border-bottom-right-radius: 10px;
+}
+
+.monthly{
+	color: white;
+	font-size: 20px;
+	margin-left: 35px;
+	margin-top: 25px;
+}
+
+.money{
+	color: white;
+	font-size: 34px;
+	margin-left: 35px;
+	margin-top: 25px;
+	font-weight: 700;
+}
+
+.per_month{
+	color: white;
+	font-size: 14px;
+	margin-left: 10px;
+	font-weight: 400;
+	opacity: 0.5;
+}
+
+.full_access{
+	color: white;
+	margin-left: 35px;
+	margin-top: 8px;
+}
+
+.button{
+	color: white;
+	margin-left: 35px;
+	margin-top: 25px;
+	background-color: var(--primary-bright-yellow);
+	padding: 12px 100px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17;
+}
+
+.button:hover{
+	background-color: #fff;
+	color: var(--primary-bright-yellow);
+	font-weight: 600;
+}
+
+.why_us{
+	color: white;
+	margin-left: 24px;
+	font-size: 20px;
+	font-weight: 550;
+	margin-left: 35px;
+	margin-top: 35px;
+}
+
+.tutorials{
+	color: white;
+	margin-left: 34px;
+	font-size: 18px;
+	margin-top: 10px;
+	opacity: 0.6;
+}
+
+
+
+/* Princip sa kojim mogu napraviti da mi je slika responsive
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+*/
+
